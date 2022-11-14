@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&family=Redressed&display=swap');
+
+.meriweather
+{
+    font-family: 'Merriweather', serif;
+}
+.redressed{
+    font-family: 'Redressed', serif;
+}
+.cc-navbar
+{
+    background-color: rgba(0, 0, 0, 0.854) ;
+    font-family: serif;
+    box-shadow: 1px 1px 3px white;
+    z-index: 100 ; 
+}
+
+.cc-navbar .nav-link{
+    border-bottom: 1px solid transparent;
+    transition: padding-bottom .8 ease-in-out, border-color .3 ease ;
+}
+.cc-navbar .nav-link:hover
+{
+    padding-bottom: 20px;
+    border-bottom-color: var(--bs-teal);
+}
+.serif
+{
+    font-family: serif;
+}
+
+.banner{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img/chicken-skewers-with-slices-sweet-peppers-dill.jpg) center center fixed no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+.btn-order
+{
+    color: var(--bs-teal);
+    border-color: var(--bs-teal);
+    transition: .55;
+}
+.btn-order:hover, 
+.btn-order:active
+{
+    background-color: var(--bs-teal);
+    color: white;
+}
+
+.cc-menu{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img/image7.webp) center center fixed no-repeat;
+    background-size: cover;
+    /* height: 1200px; */
+}
