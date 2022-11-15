@@ -47,9 +47,31 @@
     background-color: var(--bs-teal);
     color: white;
 }
-
 .cc-menu{
     background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img/image7.webp) center center fixed no-repeat;
     background-size: cover;
     /* height: 1200px; */
+}
+
+
+@media screen and (max-width: 317px) {
+    .banner_button{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner_button .btn-order{
+        margin-bottom: 10px ;
+    }
+    .banner h1{
+        text-align: center;
+    }
+    .cc-navbar a:first-of-type{
+        margin-top: 15px;
+    }
+    .cc-menu ul{
+        display: flex;
+        flex-direction: column;
+    }
+    
 }
